@@ -10,6 +10,26 @@
     padding-top: 30px;
 
 }
+.heading {
+    margin: 40px;
+    padding: 20px;
+}
+
+
+#current {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    padding-bottom: none;
+}
+.card-header {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    
+}
+.card {
+    border: groove;
+    padding-left: 10px;
+}
 
 #underHead {
     font-family: 'Indie Flower', cursive;
@@ -25,8 +45,21 @@
 #container {
     background-color: white;
     padding: 10px;
+    border: groove;
+    
 }
 
 .text {
     font-family: 'Josefin Sans', sans-serif;
 }
+.table {
+    text-align: center;
+   
+}
+
+#add-row {
+    padding: 20px;
+    margin: 40px;
+}
+
+

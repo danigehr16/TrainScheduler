@@ -95,16 +95,20 @@ $(document).ready(function () {
         nextTrain = moment(nextTrain).format("hh:mm");
         console.log("arrival time: " + moment(nextTrain).format("hh:mm"));
 
-        $("#add-row").append("<div><span>" + childSnapshot.val().name +
-            " </span><span> " + childSnapshot.val().destination +
-            " </span><span> " + childSnapshot.val().frequency +
-            " </span><span>" + nextTrain +
-            " </span><span>" + minAway +
-            " </span></div>");
+        $("#add-row").append("<tr><td>" + childSnapshot.val().name +
+            " </td><td> " + childSnapshot.val().destination +
+            " </td><td> " + childSnapshot.val().frequency +
+            " </td><td>" + nextTrain +
+            " </td><td>" + minAway +
+            " </td></tr>");
+
+            
 
     }, function(errorObject) {
         console.log("Errors handled: " + errorObject.code);
     });
+
+   
 
 
 
