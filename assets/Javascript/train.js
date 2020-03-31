@@ -62,8 +62,6 @@ $(document).ready(function () {
         console.log(childSnapshot.val().firstTrain);
         console.log(childSnapshot.val().frequency);
 
-        // var tFrequency = 17;
-        // var firstTime = "3:00"
         
         var minAway= 0;
 
